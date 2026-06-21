@@ -1,9 +1,14 @@
 import java.util.*;
 
 class Student {
+
+  // these are instance variable
   int rollno;
   String name;
   int mark;
+
+  //stactic variable will be shared by all obj i.e. all have common value
+  // use static variable with class name
 }
 
 public class Array {
