@@ -15,3 +15,12 @@ Final keyword
 -- Variable => The value/reference cannot be changed after assignment.
 -- Method => The method cannot be overridden by subclasses
 -- Class => The class cannot be inherited or extended.
+
+Annotation
+
+@Override => Used when a method overrides a parent class method.
+@Retention =>	Specifies how long the annotation is available
+@Target => Specifies where the annotation can be used
+@Inherited =>	Allows child classes to inherit annotation
+@Documented	=> Includes annotation in Javadoc
+@Deprecated => Marks a method or class as outdated.
