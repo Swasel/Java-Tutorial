@@ -7,12 +7,15 @@ class Student {
   String name;
   int mark;
 
-  //stactic variable will be shared by all obj i.e. all have common value
+  // stactic variable will be shared by all obj i.e. all have common value
   // use static variable with class name
 }
 
 public class Array {
   public static void main(String[] args) {
+
+    // array index always starts with 0 1 2 3...
+
     int[] arr = { 1, 6, 3, 2, 5 };
     int[] arr1 = new int[5];
     for (int i : arr) {
@@ -44,8 +47,7 @@ public class Array {
     mat2[1] = new int[4];
     mat2[2] = new int[2];
 
-    // array methods
-
+    // Arrays is a class
     // sorting
     Arrays.sort(arr);
     // converts 1D array to string
