@@ -78,3 +78,10 @@ public class Class {
     Mobile.show1(obj1);
   }
 }
+
+// naming convention
+// we use camel casting
+// class name always starts with capital
+// varibla and method name in small letter
+// constants PIE
+// bookMyShow() - camel for easier reading
