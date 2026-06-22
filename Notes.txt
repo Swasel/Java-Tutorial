@@ -6,18 +6,15 @@ public    ||     Yes      ||      Yes       ||          Yes              ||     
 
 
 Polymorphism
-
 -- run time => Method overriding
 -- compile time => Method overloading
 
 Final keyword
-
 -- Variable => The value/reference cannot be changed after assignment.
 -- Method => The method cannot be overridden by subclasses
 -- Class => The class cannot be inherited or extended.
 
 Annotation
-
 @Override => Used when a method overrides a parent class method.
 @Retention =>	Specifies how long the annotation is available
 @Target => Specifies where the annotation can be used
@@ -26,18 +23,36 @@ Annotation
 @Deprecated => Marks a method or class as outdated.
 
 Types of Interface
-
 -- Noramal interface =>  two or more abstract method
 -- Functional Inteface => only one abstract method
 -- Marker Interface => no abstract method
 
 Errors 
-
 -- Runtime Errors => These occur while the program is running. They are usually caused by exceptions.
                   => example divide by zero
 
 -- Compile time Errors => (Syntax Errors) These errors are detected by the compiler before the program runs.
                        => example Missing semicolon
-                       
+
 -- Logical Errors => The program compiles and runs, but produces the wrong output.
                   => example incorrect formula
+
+Threads
+-- A Thread is the smallest unit of execution in a program.
+-- Java supports multithreading, which allows multiple threads to run concurrently.
+-- start() => Starts a new thread
+-- run() =>	Contains thread code
+-- sleep(ms)	=> Pauses thread for given milliseconds
+-- join() =>	Waits for another thread to finish
+-- isAlive()	=> Checks if thread is running
+
+Mutation
+-- Mutation means changing the state/value of an object or variable after it has been created.
+
+Thread + Mutation Problem
+-- When multiple threads modify the same variable simultaneously, unexpected results can occur.
+
+Race condition
+-- A race condition occurs when multiple threads access and modify shared data simultaneously, and the final result depends on the order of execution of those threads. 
+-- It can lead to inconsistent or incorrect results. 
+-- Race conditions can be prevented using synchronization techniques such as synchronized methods, blocks, or atomic classes.
